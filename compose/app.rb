@@ -1,3 +1,4 @@
+# You must create a type of manipulator that helps the class TextManipulator to reverse the text
 class TextManipulator
   def initialize(manipulator, text)
     @manipulator = manipulator.new(text)
