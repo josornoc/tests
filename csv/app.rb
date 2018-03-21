@@ -7,10 +7,10 @@ end
 report = Report.new('cars.csv')
 
 report.min
-# It must return the car brand with the lesser of sales accumulated ex: Mazda
+# It must return the car brand with the lesser of sales accumulated ex: 'Mazda'
 
 report.max
-# It must return the car brand with the biggest of sales accumulated ex: Suzuki
+# It must return the car brand with the biggest of sales accumulated ex: 'Suzuki'
 
 report.all
 # It must return the total grouped by brand ordered from the most accumulated to de lesser
