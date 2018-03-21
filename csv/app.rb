@@ -1,4 +1,4 @@
-# You must implements implement this class
+# You must implement this class
 class Report
   def initialize(file)
   end
