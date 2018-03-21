@@ -6,13 +6,13 @@ end
 
 report = Report.new('cars.csv')
 
-report.min
+puts report.min
 # It must return the car brand with the lesser of sales accumulated ex: 'Mazda'
 
-report.max
+puts report.max
 # It must return the car brand with the biggest of sales accumulated ex: 'Suzuki'
 
-report.all
+puts report.all
 # It must return the total grouped by brand ordered from the most accumulated to de lesser
 # in a hash example:
 # {'Ford': 300 , 'Mazda': 200 } 
